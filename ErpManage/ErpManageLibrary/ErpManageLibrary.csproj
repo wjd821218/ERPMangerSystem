@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B18D446-0B53-448A-B182-11B4F72C3316}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ErpManageLibrary</RootNamespace>
+    <AssemblyName>ErpManageLibrary</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicData.cs" />
+    <Compile Include="BasicDataManage.cs" />
+    <Compile Include="BillAutoIDManage.cs" />
+    <Compile Include="ChangeBill.cs" />
+    <Compile Include="ChangeBillDataAttachment.cs" />
+    <Compile Include="ChangeBillManage.cs" />
+    <Compile Include="DrawOrder.cs" />
+    <Compile Include="DrawOrderDetail.cs" />
+    <Compile Include="DrawOrderManage.cs" />
+    <Compile Include="Equipment1\Equipment.cs" />
+    <Compile Include="Equipment1\EquipmentDie.cs" />
+    <Compile Include="Equipment1\EquipmentFrock.cs" />
+    <Compile Include="Equipment1\EquipmentGage.cs" />
+    <Compile Include="Equipment1\EquipmentInformation.cs" />
+    <Compile Include="Equipment1\EquipmentManage.cs" />
+    <Compile Include="Equipment1\EquipmentOffice.cs" />
+    <Compile Include="ExcessOrder.cs" />
+    <Compile Include="ExcessOrderDetail.cs" />
+    <Compile Include="ExcessOrderManage.cs" />
+    <Compile Include="FileApplyPersonDetail.cs" />
+    <Compile Include="FileClassManage.cs" />
+    <Compile Include="FileData.cs" />
+    <Compile Include="FileDataAttachment.cs" />
+    <Compile Include="FileDataAttachmentManage.cs" />
+    <Compile Include="FileDataManage.cs" />
+    <Compile Include="HalfGoods.cs" />
+    <Compile Include="HalfGoodsDetail.cs" />
+    <Compile Include="HalfGoodsManage.cs" />
+    <Compile Include="MaterialMRPPlan.cs" />
+    <Compile Include="MaterialMRPPlanCalcSumDetail.cs" />
+    <Compile Include="MaterialMRPPlanDetail.cs" />
+    <Compile Include="MaterialMRPPlanManage.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ClientManage.cs" />
+    <Compile Include="ClientOrder.cs" />
+    <Compile Include="ClientOrderDetail.cs" />
+    <Compile Include="ClientOrderManage.cs" />
+    <Compile Include="Dept.cs" />
+    <Compile Include="DeptManage.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeManage.cs" />
+    <Compile Include="GroupRightSet.cs" />
+    <Compile Include="LoginUser.cs" />
+    <Compile Include="LoginUserManage.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="MaterialBom.cs" />
+    <Compile Include="MaterialBomDetail.cs" />
+    <Compile Include="MaterialManage.cs" />
+    <Compile Include="PaymentOrder.cs" />
+    <Compile Include="PaymentOrderDetail1.cs" />
+    <Compile Include="PaymentOrderDetail2.cs" />
+    <Compile Include="PaymentOrderManage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuitOrder.cs" />
+    <Compile Include="QuitOrderDetail.cs" />
+    <Compile Include="QuitOrderManage.cs" />
+    <Compile Include="RightGroupManage.cs" />
+    <Compile Include="SelectEmployee.cs" />
+    <Compile Include="SelectFileClass.cs" />
+    <Compile Include="SelectMaterialType.cs" />
+    <Compile Include="SelectQuitOrderDetail.cs" />
+    <Compile Include="SelectStockOrderDetail.cs" />
+    <Compile Include="StatReportManage.cs" />
+    <Compile Include="StockInOrder.cs" />
+    <Compile Include="StockInOrderDetail.cs" />
+    <Compile Include="StockInOrderManage.cs" />
+    <Compile Include="StockOrder.cs" />
+    <Compile Include="StockOrderDetail.cs" />
+    <Compile Include="StockOrderManage.cs" />
+    <Compile Include="StockYJ.cs" />
+    <Compile Include="StockYJManage.cs" />
+    <Compile Include="StorageClassManage.cs" />
+    <Compile Include="Supplier.cs" />
+    <Compile Include="SupplierManage.cs" />
+    <Compile Include="SysLog.cs" />
+    <Compile Include="SysParams.cs" />
+    <Compile Include="MaterialBOMManage.cs" />
+    <Compile Include="SystemLogManage.cs" />
+    <Compile Include="SystemManage.cs" />
+    <Compile Include="GoodsOrder.cs" />
+    <Compile Include="GoodsOrderDetail.cs" />
+    <Compile Include="GoodsOrderManage.cs" />
+    <Compile Include="Consign.cs" />
+    <Compile Include="ConsignDetail.cs" />
+    <Compile Include="ConsignManage.cs" />
+    <Compile Include="QuitStorageOrder.cs" />
+    <Compile Include="QuitStorageOrderDetail.cs" />
+    <Compile Include="QuitStorageOrderManage.cs" />
+    <Compile Include="ConsignOut.cs" />
+    <Compile Include="ConsignOutDetail.cs" />
+    <Compile Include="ConsignOutManage.cs" />
+    <Compile Include="OtherSellOrder.cs" />
+    <Compile Include="OtherSellOrderDetail.cs" />
+    <Compile Include="OtherSellOrderManage.cs" />
+    <Compile Include="SellOrder.cs" />
+    <Compile Include="SellOrderDetail.cs" />
+    <Compile Include="SellOrderManage.cs" />
+    <Compile Include="DrawPlan.cs" />
+    <Compile Include="DrawPlanCalcSumDetail.cs" />
+    <Compile Include="DrawPlanDetail.cs" />
+    <Compile Include="DrawPlanManage.cs" />
+    <Compile Include="SelectClientOrderDetail.cs" />
+    <Compile Include="IncomeOrder.cs" />
+    <Compile Include="IncomeOrderDetail1.cs" />
+    <Compile Include="IncomeOrderDetail2.cs" />
+    <Compile Include="IncomeOrderManage.cs" />
+    <Compile Include="RejectOrder.cs" />
+    <Compile Include="RejectOrderDetail.cs" />
+    <Compile Include="RejectOrderManage.cs" />
+    <Compile Include="RemoveBill.cs" />
+    <Compile Include="RemoveBillDetail.cs" />
+    <Compile Include="RemoveBillManage.cs" />
+    <Compile Include="InitialGoods.cs" />
+    <Compile Include="InitialGoodsDetail.cs" />
+    <Compile Include="InitialGoodsManage.cs" />
+    <Compile Include="SelectStockInOrder.cs" />
+    <Compile Include="OtherInOrder.cs" />
+    <Compile Include="OtherInOrderDetail.cs" />
+    <Compile Include="OtherInOrderManage.cs" />
+    <Compile Include="SelectStockInOrderDetail.cs" />
+    <Compile Include="YJMaterialStorage.cs" />
+    <Compile Include="YJOrderDelete.cs" />
+    <Compile Include="FileInStorage.cs" />
+    <Compile Include="FileInStorageDetail.cs" />
+    <Compile Include="FileInStorageManage.cs" />
+    <Compile Include="FileApply.cs" />
+    <Compile Include="FileApplyDetail.cs" />
+    <Compile Include="FileApplyManage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAO\Daniel.Liu.DAO.csproj">
+      <Project>{CC0DBE40-88E7-4099-8E78-297DC46CB8B7}</Project>
+      <Name>Daniel.Liu.DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
